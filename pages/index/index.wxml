@@ -1,0 +1,72 @@
+<!-- page onload content -->
+<!-- 
+<view>
+  <view><image src="/images/logo.jpg"></image></view>
+  <view><text>Made by </text><image src="/icons/heart-solid.svg"></image></view>
+</view> 
+-->
+<view>
+  <button bindtap="onDog">Dog</button>
+  <button bindtap="onDog">Fish</button>
+</view>
+<view class="container">
+
+  <!-- small card -->
+  <view wx:for="{{list_sm}}" wx:key="i" class="card-sm"  >
+    <view class="photo-sm">
+      <image class="photo-sm-pic" src="{{item.picPath}}"></image>
+    </view>
+    <view class="info-sm">
+      <view class="iconfont icon-age"><text class="info-sm-text">年龄：{{item.age}} 岁</text></view>
+      <view class="iconfont icon-gender"><text class="info-sm-text">性别：{{item.gender}}</text></view>
+      <view class="iconfont icon-weight"><text class="info-sm-text">体重：{{item.weight}}公斤</text></view>
+    </view>
+  </view>
+
+  <!-- big card -->
+  <view class="card-big">
+    <view class="photo-big">
+      <image class="photo-big-pic" src="/images/dog1.jpeg"></image>
+    </view>
+    <view class="info-big">
+      <view class="info-essential">
+        <view class="iconfont icon-age"><text class="info-big-text">年龄：3岁</text></view>
+        <view class="iconfont icon-gender"><text class="info-big-text">性别：公</text></view>
+      </view>
+      <view class="info-nonessential">
+        <view class="iconfont icon-cut"><text class="info-big-text">绝育：已绝育</text></view>
+        <view class="iconfont icon-vax"><text class="info-big-text">疫苗：未接种</text></view>
+        <view class="iconfont icon-breed"><text class="info-big-text">品种：未知</text></view>
+      </view>
+    </view>
+  </view>
+
+  <!-- iterations -->
+  <view class="card-sm">
+    <view class="photo-sm">
+      <image class="photo-sm-pic" src="/images/dog3.jpeg"></image>
+    </view>
+    <view class="info-sm">
+      <view class="iconfont icon-age"><text class="info-sm-text">年龄：3岁</text></view>
+      <view class="iconfont icon-gender"><text class="info-sm-text">性别：公</text></view>
+      <view class="iconfont icon-weight"><text class="info-sm-text">体重：8公斤</text></view>
+    </view>
+  </view>
+
+  <view class="card-big">
+    <view class="photo-big">
+      <image class="photo-big-pic" src="/images/pet5.png"></image>
+    </view>
+    <view class="info-big">
+      <view class="info-essential">
+        <view class="iconfont icon-age"><text class="info-big-text">年龄：3岁</text></view>
+        <view class="iconfont icon-gender"><text class="info-big-text">性别：公</text></view>
+      </view>
+      <view class="info-nonessential">
+        <view class="iconfont icon-cut"><text class="info-big-text">绝育：已绝育</text></view>
+        <view class="iconfont icon-vax"><text class="info-big-text">疫苗：未接种</text></view>
+        <view class="iconfont icon-breed"><text class="info-big-text">品种：未知</text></view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,36 @@
+{
+  
+  "pages": [
+     
+    "pages/index/index",
+    "pages/info/info",
+    "pages/welcome"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F3F5ED",
+    "navigationBarTitleText": "极善领养小栈",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor": "#F3F5ED",
+    "selectedColor": "#000",
+    "color": "#444",
+    "list": [
+      {
+        "selectedIconPath": "/icons/pet.png",
+        "iconPath": "/icons/pet.png",
+        "pagePath": "pages/index/index",
+        "text": "认领"
+      },
+      {
+        "selectedIconPath": "/icons/info.png",
+        "iconPath": "/icons/info.png",
+        "pagePath": "pages/info/info",
+        "text": "关于"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+@import "../../icons/iconfont.wxss";
+
+.container{
+  background-color: #F3F5ED;
+  padding-top: 0;
+}
+/* small & big card, common style */
+.card-sm, .card-big{
+  display: flex;
+  background-color: #f7f9f7;
+  border-radius: 15px;
+  width: 680rpx;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin-top: 15px;
+  
+}
+/* small card style*/
+.card-sm{
+  height: 300rpx;
+  justify-content: space-around;
+  align-items: center;
+}
+.photo-sm-pic{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.info-sm{
+  display: flex;
+  flex-direction: column;
+}
+.info-sm .info-sm-text{
+  padding-left: 10px;
+}
+/* big card style*/
+.card-big{
+  height: 600rpx;
+  flex-direction: column;
+}
+.photo-big{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.photo-big-pic{
+  flex-shrink: 0;
+  min-width: 100%;
+  height: 400rpx; 
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.info-big{
+  padding-top: 20px; 
+}
+.info-essential{
+  color: #333;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+.info-essential .info-big-text{
+  flex: 1;
+  text-align: left;
+  padding-left: 10px;
+}
+.info-nonessential{
+  color: grey;
+  display: flex;
+  justify-content: space-around;
+}
+.info-nonessential .info-big-text{
+  flex: 1;
+  text-align: left;
+  font-size: 70%;
+  padding-left: 5px;
+}
+.info-sm .iconfont::before, .info-big .info-essential .iconfont::before{
+  color: #ff9500;
+}
+ 

@@ -1,0 +1,79 @@
+{
+  "id": "3234829",
+  "name": "AnimalShelter",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "677578",
+      "name": "关于我们",
+      "font_class": "about",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "7955758",
+      "name": "宠物",
+      "font_class": "pet",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "357751",
+      "name": "猫，狗，猫狗，心形",
+      "font_class": "breed",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "4139282",
+      "name": "小剪子",
+      "font_class": "cut",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "7693982",
+      "name": "疫苗",
+      "font_class": "vax",
+      "unicode": "eb4c",
+      "unicode_decimal": 60236
+    },
+    {
+      "icon_id": "10268593",
+      "name": "体重",
+      "font_class": "weight",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "11372771",
+      "name": "时间",
+      "font_class": "age",
+      "unicode": "e8c5",
+      "unicode_decimal": 59589
+    },
+    {
+      "icon_id": "13769347",
+      "name": "性别-男",
+      "font_class": "male",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "13769358",
+      "name": "性别-女",
+      "font_class": "female",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "15969339",
+      "name": "性别",
+      "font_class": "gender",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    }
+  ]
+}
